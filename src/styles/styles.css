@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: white;
+}
+
+a,
+p {
+  font-size:0.7em;
+}
+
+svg {
+    padding-left: 4em;
+}
+
+.node {
+  cursor: pointer;
+}
+.node circle {
+    fill: none;
+}
+.node text {
+  font: 0.4em sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+.link {
+  fill: none;
+  stroke: #4286f4;
+  opacity: 0.2;
+  stroke-width: 0.3em; /* control the width of the lines via css */
+}
+div.tooltip { /* default styles for the tooltip window */
+  background: #4286f4;
+  font-family: 'Roboto Mono', monospace;
+  border: 0;
+  border-radius: 6px;
+  font-size: 0.3em;
+  height: viewerHeight;
+  padding: 5px;
+  pointer-events: none;
+  position: absolute;
+  text-align: left;
+  width: 150px;
+}
